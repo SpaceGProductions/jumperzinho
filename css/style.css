@@ -32,6 +32,7 @@ body{
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border: 1px solid #A20cf2;
+  box-shadow: 4px 4px #14112C;
 }
 .content{
   z-index: 0;
@@ -230,6 +231,7 @@ main{
   @media (max-width: 960px){
     width: 640px;
   };
+  box-shadow: 4px 4px #14112C;
 }
 .copy ul{
   margin: 30px;
@@ -274,4 +276,59 @@ video{
   @media (max-width: 960px){
     width: 640px;
   };
+  box-shadow: 4px 4px #14112C;
+}
+
+footer {
+  width: 100%;
+  height: 340px;
+  background-color: #041347;
+  margin-top: 50px;
+  border-top: 2px solid #A20cf2;
+  box-shadow: 0px -5px #14112C ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 20px;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer .redes div{
+  display: flex;
+  align-items: baseline;
+}
+
+.redes div i{
+  font-size: 25px;
+  border: 1px solid #9c1f81;
+  padding: 4px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+footer .e-mail{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #9c1f81;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.e-mail i{
+  font-size: 55px;
+  margin-right: 20px;
+}
+.redes a div p{
+  font-size: 23px;
 }
