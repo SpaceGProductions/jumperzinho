@@ -15,6 +15,13 @@ body{
   background-color: #14112C;
   align-items: flex-start;
   height: 650px;
+  background-image: url(/jumperzinho/IMG/banner2070.png);
+@media (max-width: 1980px) {
+  background-image: url(/jumperzinho/IMG/banner1920.png);  
+}
+@media (max-width: 1280px){
+  background-image: url(/jumperzinho/IMG/banner1280.png);
+}
 }
 
 .fundo{
